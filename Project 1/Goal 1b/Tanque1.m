@@ -20,7 +20,7 @@ z = 0:0.1:4;
 k = coe(2)*z + coe(1);
 title('Tanque 01')
 hold on,plot(z,k)
-legend('Tensão Média')
+legend('Média das tensões')
 grid on;
 ylabel('Altura(cm)')
 xlabel('Tensão(Volt)')
